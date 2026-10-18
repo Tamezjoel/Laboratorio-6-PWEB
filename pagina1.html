@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página 1 - Naturaleza</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background: #eef5e9;
+            font-family: Arial, sans-serif;
+        }
+
+        .navbar {
+            background: #245c3a;
+        }
+
+        .hero {
+            background: #d2e8c9;
+            padding: 35px;
+            text-align: center;
+        }
+
+        .card img {
+            height: 180px;
+            object-fit: cover;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand navbar-dark">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">Mi sitio web</a>
+            <div class="navbar-nav">
+                <a class="nav-link active" href="pagina1.html">Página 1</a>
+                <a class="nav-link" href="pagina2.html">Página 2</a>
+                <a class="nav-link" href="pagina3.html">Página 3</a>
+            </div>
+        </div>
+    </nav>
+
+    <header class="hero">
+        <h1>Explorando la naturaleza</h1>
+        <p>Descubre la belleza de nuestro planeta.</p>
+    </header>
+
+    <main class="container py-4">
+        <p>La naturaleza nos ofrece paisajes maravillosos, desde bosques hasta montañas y playas.</p>
+        <p>Los árboles producen oxígeno y sirven de hogar para muchas especies de animales.</p>
+        <p>Cuidar el medio ambiente ayuda a conservar los recursos para las futuras generaciones.</p>
+
+        <div class="row g-3">
+            <div class="col-md-4"><img class="img-fluid rounded"
+                    src="https://placehold.co/400x250/47734b/ffffff?text=Bosque" alt="Bosque"></div>
+            <div class="col-md-4"><img class="img-fluid rounded"
+                    src="https://placehold.co/400x250/578caa/ffffff?text=Montanas" alt="Montañas"></div>
+            <div class="col-md-4"><img class="img-fluid rounded"
+                    src="https://placehold.co/400x250/7cba8a/ffffff?text=Plantas" alt="Plantas"></div>
+        </div>
+
+        <div class="alert alert-success mt-4" role="alert">
+            ¡Cada pequeña acción ayuda a proteger el planeta!
+        </div>
+
+        <button class="btn btn-success" data-bs-toggle="collapse" data-bs-target="#consejo">
+            Ver consejo ecológico
+        </button>
+        <div class="collapse mt-3" id="consejo">
+            <div class="card card-body">Ahorra agua, separa la basura y evita desperdiciar energía.</div>
+        </div>
+        <p class="mt-4"><a href="index.html">Volver a la página principal</a></p>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
